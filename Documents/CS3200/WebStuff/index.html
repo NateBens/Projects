@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Games Library</title>
+    <link href="default.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="login" class="loginregister">
+        <h1 id="loginHeader">Login Form</h1>
+        <div class="loginContainer">
+            <input type="text" class="field" id="email" placeholder="EMAIL" required>
+            <input type="password" class="field" id="password" placeholder="PASSWORD" required>
+            <button id="loginButton" class="button"><span class="button-span">Login</span></button>
+        <h3>Not Registered?</h3>
+        <button id="registrationLink" class="button"><span class="button-span">Register</span></button>
+        </div>
+    </div>
+    <div id="registration" class="loginregister">
+        <h1 id="loginHeader">Registration Form</h1>
+        <div class="loginContainer">
+            <input type="text" class="field" id="username" placeholder="USERNAME" required>
+            <input type="text" class="field" id="registeremail" placeholder="EMAIL" required>
+            <input type="password" class="field" id="registerpassword" placeholder="PASSWORD" required>
+            <button id="registerButton" class="button"><span class="button-span">Register</span></button>
+        </div>
+    </div>
+
+    <div id="body">
+        <div id="header">
+            <h2 id="welcomeheader">Welcome!</h2>
+            <button id="logout">Logout</button>
+        </div>
+        <h1 id="heading">GAMES LIBRARY</h1>
+        <div id="left">
+            <input type="text" class="field" id="name" placeholder="NAME">
+            <input type="text" class="field" id="genre" placeholder="GENRE">
+            <input type="text" class="field" id="size" placeholder="SIZE">
+            <input type="text" class="field" id="date" placeholder="DATE">
+            <input type="text" class="field" id="publisher" placeholder="PUBLISHER">
+            <button id="addGame" class="button"><span class="button-span">ADD GAME</span></button>
+        </div>
+        <div id="right">
+            <ul id="list"></ul>
+        </div>
+        <div id="bottom">
+
+        </div>
+        <div id="bottomButtons">
+            <button id="delete" class="button"><span id="button-span">DELETE</span></button>
+            <button id="edit" class="button"><span id="button-span">EDIT</span></button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
